@@ -210,6 +210,9 @@ export class ServerlessPlugin {
             IntegrationResponses: [
               {
                 StatusCode: '200',
+                ResponseParameters: {
+                  'method.response.header.Access-Control-Allow-Origin': "'*'",
+                },
               },
             ],
             RequestParameters: {
@@ -259,7 +262,7 @@ export class ServerlessPlugin {
                   'method.response.header.Access-Control-Allow-Methods':
                     "'OPTIONS,POST'",
                   'method.response.header.Access-Control-Allow-Credentials':
-                    "'false'",
+                    "'true'",
                 },
                 ResponseTemplates: {
                   'application/json': '',
