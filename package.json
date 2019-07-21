@@ -1,0 +1,45 @@
+{
+  "name": "serverless-plugin-api-gateway-integrations",
+  "version": "0.0.1",
+  "description": "Serverless plugin to add API Gateway integrations",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.ts'",
+    "build": "tsc -p tsconfig.json",
+    "test": "JEST_JUNIT_OUTPUT=./reports/junit/${npm_package_name}-test-results.xml jest",
+    "test:watch": "yarn test --watch",
+    "test:ci": "yarn test --runInBand --ci",
+    "coverage": "jest --coverage",
+    "prettier": "prettier --write src/**/*.ts",
+    "prettier:ci": "prettier --list-different src/**/*.ts",
+    "tag": "git tag \"v$npm_package_version\" && git push --tags",
+    "prepublishOnly": "yarn run build"
+  },
+  "author": "Erez Rokah",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "@types/serverless": "^1.18.2",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jest": "^22.12.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "change-case": "^3.1.0"
+  }
+}
