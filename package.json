@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-api-gateway-integrations",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Serverless plugin to add API Gateway integrations",
   "main": "dist/index.js",
   "files": [

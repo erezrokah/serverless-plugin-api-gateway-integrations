@@ -34,7 +34,9 @@ class ServerlessPlugin {
     apiGatewayLogicalId: string,
     template: CFTemplate,
   ) {
-    this.serverless.cli.log(`Adding integration: ${integration}`);
+    this.serverless.cli.log(
+      `Adding integration: ${JSON.stringify(integration)}`,
+    );
     const { type } = integration;
     if (type !== IntegrationType.SQS) {
       throw new Error(`Unsupported integration type: ${type}`);
