@@ -1,64 +1,19 @@
 import changeCase = require('change-case');
 import { Options } from 'serverless';
+import {
+  Serverless,
+  ApiGatewayIntegration,
+  AwsProvider,
+  CFTemplate,
+  IntegrationType,
+} from './types';
 
-interface ApiGatewayIntegration {
-  type: 'sqs';
-  name: string;
-  visibilityTimeout?: number;
-  path?: string;
-  authorizationType?: string;
-  authorizerId?: string;
-}
-
-interface AwsProvider {
-  getStage: () => string;
-  getRegion: () => string;
-
-  naming: {
-    generateApiGatewayDeploymentLogicalId: (id: string) => string;
-    getRestApiLogicalId: () => string;
-    getApiGatewayName: () => string;
-    normalizeNameToAlphaNumericOnly: (name: string) => string;
-    getStackName: () => string;
-  };
-}
-
-interface CFTemplate {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  Resources: Record<string, any>;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  Outputs: Record<string, any>;
-}
-
-interface Serverless {
-  instanceId: string;
-
-  cli: {
-    log(
-      message: string,
-      prefix?: string,
-      options?: Record<string, string>,
-    ): null;
-  };
-
-  getProvider: (provider: string) => AwsProvider;
-
-  service: {
-    provider: {
-      compiledCloudFormationTemplate: CFTemplate;
-    };
-    custom: {
-      apiGatewayIntegrations?: ApiGatewayIntegration[];
-    };
-  };
-}
-
-export class ServerlessPlugin {
-  private serverless: Serverless;
+class ServerlessPlugin {
+  public serverless: Serverless;
   // @ts-ignore
-  private options: Options;
+  public options: Options;
   // @ts-ignore
-  private hooks: Record<string, () => void>;
+  public hooks: Record<string, () => void>;
 
   private apiGatewayMethodLogicalIds: string[];
 
@@ -79,8 +34,9 @@ export class ServerlessPlugin {
     apiGatewayLogicalId: string,
     template: CFTemplate,
   ) {
+    this.serverless.cli.log(`Adding integration: ${integration}`);
     const { type } = integration;
-    if (type !== 'sqs') {
+    if (type !== IntegrationType.SQS) {
       throw new Error(`Unsupported integration type: ${type}`);
     }
 
@@ -374,4 +330,4 @@ export class ServerlessPlugin {
   }
 }
 
-module.exports = ServerlessPlugin;
+export = ServerlessPlugin;
