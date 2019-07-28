@@ -189,6 +189,9 @@ describe('index', () => {
             },
             HttpMethod: 'POST',
             AuthorizationType: 'NONE',
+            RequestParameters: {
+              'method.request.header.Authorization': false,
+            },
             MethodResponses: [
               {
                 StatusCode: '200',
@@ -418,6 +421,9 @@ describe('index', () => {
             },
             HttpMethod: 'POST',
             AuthorizationType: 'NONE',
+            RequestParameters: {
+              'method.request.header.Authorization': false,
+            },
             MethodResponses: [
               {
                 StatusCode: '200',
