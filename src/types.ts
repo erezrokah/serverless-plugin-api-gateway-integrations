@@ -9,6 +9,7 @@ export interface ApiGatewayIntegration {
   path?: string;
   authorizationType?: string;
   authorizerId?: string;
+  requestParameters?: Record<string, string>;
 }
 
 export interface AwsProvider {

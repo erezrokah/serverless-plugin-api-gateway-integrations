@@ -49,6 +49,7 @@ class ServerlessPlugin {
       path = integration.name,
       authorizationType = 'NONE',
       authorizerId,
+      requestParameters = {},
     } = integration;
     const stackName = provider.naming.getStackName();
 
@@ -153,6 +154,9 @@ class ServerlessPlugin {
           HttpMethod: 'POST',
           AuthorizationType: authorizationType,
           AuthorizerId: authorizerId,
+          RequestParameters: {
+            'method.request.header.Authorization': false,
+          },
           MethodResponses: [
             {
               StatusCode: '200',
@@ -177,6 +181,7 @@ class ServerlessPlugin {
               'integration.request.querystring.QueueUrl': `'#{${queueLogicalId}}'`,
               'integration.request.querystring.MessageBody':
                 'method.request.body',
+              ...requestParameters,
             },
             Uri: `arn:aws:apigateway:${provider.getRegion()}:sqs:action/SendMessage`,
           },
