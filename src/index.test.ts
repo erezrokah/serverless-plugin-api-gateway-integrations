@@ -121,7 +121,7 @@ describe('index', () => {
               deadLetterTargetArn: {
                 'Fn::GetAtt': ['ApiGatewayIntegrationSqsTestQueueDlq', 'Arn'],
               },
-              maxReceiveCount: 1,
+              maxReceiveCount: 5,
             },
           },
         },
@@ -353,7 +353,7 @@ describe('index', () => {
               deadLetterTargetArn: {
                 'Fn::GetAtt': ['ApiGatewayIntegrationSqsTestQueueDlq', 'Arn'],
               },
-              maxReceiveCount: 1,
+              maxReceiveCount: 5,
             },
           },
         },

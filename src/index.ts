@@ -70,7 +70,8 @@ class ServerlessPlugin {
             deadLetterTargetArn: {
               'Fn::GetAtt': [dlqLogicalId, 'Arn'],
             },
-            maxReceiveCount: 1,
+            // https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html#events-sqs-queueconfig
+            maxReceiveCount: 5,
           },
         },
       },
