@@ -34,7 +34,7 @@
   "author": "Erez Rokah",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^24.0.15",
+    "@types/jest": "^25.0.0",
     "@types/node": "^12.6.8",
     "@types/serverless": "^1.18.2",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
