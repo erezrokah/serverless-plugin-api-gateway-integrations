@@ -46,7 +46,7 @@
     "jest": "^26.0.0",
     "jest-junit": "^11.0.0",
     "prettier": "^2.0.0",
-    "ts-jest": "^25.0.0",
+    "ts-jest": "^26.0.0",
     "typescript": "^3.5.3"
   },
   "engines": {
