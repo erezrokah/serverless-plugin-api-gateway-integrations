@@ -635,9 +635,9 @@
   integrity sha512-z/FG/6DUO7pnze3AE3TBGIjGGKkvCcGcWINe1C7cADY8hKLJPDYpzsNE37uExQ4md5RFtTCvg+M8Mu1Enyeg2A==
 
 "@types/node@^16.0.0":
-  version "16.11.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.28.tgz#4c16c266882b1cbd268719ea6c7c8ff3c60aae39"
-  integrity sha512-l/y1ZZpWqevemVQmk0Q1TPohlJTul7u9ysq3bw6xlRDO8z+98JBI6gp4JS0OK8YkWUdYxnJU35H4vOzuiOFIag==
+  version "16.11.33"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.33.tgz#566713b1b626f781c5c58fe3531307283e00720c"
+  integrity sha512-0PJ0vg+JyU0MIan58IOIFRtSvsb7Ri+7Wltx2qAg94eMOrpg4+uuP3aUHCpxXc1i0jCXiC+zIamSZh3l9AbcQA==
 
 "@types/prettier@^2.1.5":
   version "2.6.0"
@@ -645,9 +645,9 @@
   integrity sha512-G/AdOadiZhnJp0jXCaBQU449W2h716OW/EoXeYkCytxKL06X1WCXB4DZpp8TpZ8eyIJVS1cw4lrlkkSYU21cDw==
 
 "@types/serverless@^3.0.0":
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.1.tgz#e42c2c0c8df141995c568195c9a7f832e66cec11"
-  integrity sha512-ffmP3OqyudsP6a3jBRi2D8evcDl66YdVGf9P+D857m5281kztkGytWy5sA3YCWp62cSPfk9OPi8hND7q2Wa/zw==
+  version "3.12.3"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.3.tgz#ef8243a0faa16eee720efd0b7601926899abc3b4"
+  integrity sha512-yceH7DSe6VnuUDBmE/F31sgrHHYN0xv90TDfhJT8+ukH7QCoPDstSHt7lNPveIA96EmP0wwzVimrSk3dxT1Djw==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
