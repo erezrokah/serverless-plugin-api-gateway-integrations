@@ -713,14 +713,14 @@
   integrity sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==
 
 "@types/node@^18.0.0":
-  version "18.16.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.16.tgz#3b64862856c7874ccf7439e6bab872d245c86d8e"
-  integrity sha512-NpaM49IGQQAUlBhHMF82QH80J08os4ZmyF9MkpCzWAGuOHqE4gTEbhzd7L3l5LmWuZ6E0OiC1FweQ4tsiW35+g==
+  version "18.16.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.18.tgz#85da09bafb66d4bc14f7c899185336d0c1736390"
+  integrity sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==
 
 "@types/prettier@^2.1.5":
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.2.tgz#6c2324641cc4ba050a8c710b2b251b377581fbf0"
-  integrity sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.3.tgz#3e51a17e291d01d17d3fc61422015a933af7a08f"
+  integrity sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==
 
 "@types/semver@^7.3.12":
   version "7.5.0"
@@ -728,9 +728,9 @@
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
 "@types/serverless@^3.0.0":
-  version "3.12.11"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.11.tgz#f6950fb557a30d9f8fecec3c9d74832e48255f6d"
-  integrity sha512-2CCtHisSPvbaeJwV1fJ9ppdea7luQV7AKIlpndk/Br4gdDCCJ/BZ9xo/0GQxeE6ID82X3AyNVj2A454PnuIXEA==
+  version "3.12.12"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.12.tgz#013ac5af4b923ad450e5aebd05022c4dd9d42b7a"
+  integrity sha512-i1Igc68iztBXstHuCs9OtwomjHtNPecJ3KE6tPJqeSt73Ui5ubdJSBWrPwZ58MdEhJYKm/abh7h04YQw98pcZw==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
