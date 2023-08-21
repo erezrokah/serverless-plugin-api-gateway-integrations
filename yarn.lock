@@ -732,9 +732,9 @@
   integrity sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==
 
 "@types/node@^18.0.0":
-  version "18.17.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.5.tgz#c58b12bca8c2a437b38c15270615627e96dd0bc5"
-  integrity sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==
+  version "18.17.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.6.tgz#0296e9a30b22d2a8fcaa48d3c45afe51474ca55b"
+  integrity sha512-fGmT/P7z7ecA6bv/ia5DlaWCH4YeZvAQMNpUhrJjtAhOhZfoxS1VLUgU2pdk63efSjQaOJWdXMuAJsws+8I6dg==
 
 "@types/semver@^7.3.12":
   version "7.5.0"
@@ -742,9 +742,9 @@
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
 "@types/serverless@^3.0.0":
-  version "3.12.13"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.13.tgz#7d0c0cfc12bc04ce0896071957704831dc2187f0"
-  integrity sha512-acPSowKIGA2IUsxCqp7Z2Nj/ULZ4jUYHU0TaLByDmHxG6cee6+L+E4LK2eDRDsOIrI/EdeJLVrV5asDoWCQHBw==
+  version "3.12.14"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.14.tgz#e7e6be36efc6e4b7481d71b21351fa03995935ce"
+  integrity sha512-09pOKc8XCW0cbGBBF8Mf2RrG2Ghl5JXUHuSRK8EUulCo5Sat3wXiu4wv9Gmy29hSNFvaVhevSOARgqlVwFc7RA==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
