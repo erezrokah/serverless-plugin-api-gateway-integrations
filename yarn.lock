@@ -735,19 +735,19 @@
   integrity sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==
 
 "@types/node@^18.0.0":
-  version "18.17.15"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.15.tgz#31301a273b9ca7d568fe6d1c35ae52e0fb3f8d6a"
-  integrity sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==
+  version "18.17.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.17.tgz#53cc07ce582c9d7c5850702a3c2cb0af0d7b0ca1"
+  integrity sha512-cOxcXsQ2sxiwkykdJqvyFS+MLQPLvIdwh5l6gNg8qF6s+C7XSkEWOZjK+XhUZd+mYvHV/180g2cnCcIl4l06Pw==
 
 "@types/semver@^7.3.12", "@types/semver@^7.5.0":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.1.tgz#0480eeb7221eb9bc398ad7432c9d7e14b1a5a367"
-  integrity sha512-cJRQXpObxfNKkFAZbJl2yjWtJCqELQIdShsogr1d2MilP8dKD9TE/nEKHkJgUNHdGKCQaf9HbIynuV2csLGVLg==
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.2.tgz#31f6eec1ed7ec23f4f05608d3a2d381df041f564"
+  integrity sha512-7aqorHYgdNO4DM36stTiGO3DvKoex9TQRwsJU6vMaFGyqpBA1MNZkz+PG3gaNUPpTAOYhT1WR7M1JyA3fbS9Cw==
 
 "@types/serverless@^3.0.0":
-  version "3.12.14"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.14.tgz#e7e6be36efc6e4b7481d71b21351fa03995935ce"
-  integrity sha512-09pOKc8XCW0cbGBBF8Mf2RrG2Ghl5JXUHuSRK8EUulCo5Sat3wXiu4wv9Gmy29hSNFvaVhevSOARgqlVwFc7RA==
+  version "3.12.15"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.15.tgz#aed5603040ea68d0aa4b240d7d4f938bd58448e3"
+  integrity sha512-8oOh5nrweD9cHr1drlVAOHa+cqODbpaYCUQhzn+XW13aXrocfXzYKTIAe5JHBX/YvXBbGYShkdMqoGQO9mRs8A==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
