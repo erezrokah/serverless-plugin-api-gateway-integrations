@@ -729,9 +729,9 @@
     undici-types "~6.20.0"
 
 "@types/serverless@^3.0.0":
-  version "3.12.23"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.23.tgz#2349d0e8c8d4bd321c845c1e37ebefa8865bd86d"
-  integrity sha512-w0aoXyDOOqX1jsNOBFUKMz5UvX9PkLTstxzyvONLvzw5CkmZOxy2A9MDn+xeVnax/3cSPyhzjtMjO3Gy53N43g==
+  version "3.12.25"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.25.tgz#9d6f84d62da094b83ac2f2dfea1aa5095c41de8e"
+  integrity sha512-7WxfBPbu4cQ1L+d+4F89sYovzRRmZ/VgbABS44bOgUYCyVGvMPDvOy6k8di7cnq98/eKsg/UUOFyWWIWS6lxig==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.3"
