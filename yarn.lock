@@ -726,9 +726,9 @@
     undici-types "~7.16.0"
 
 "@types/serverless@^3.0.0":
-  version "3.12.27"
-  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.27.tgz#f3f83af7b09b1601f1bf5fc5237afc9f618c98f8"
-  integrity sha512-3lKSUf+QO3x55isgqkeTNPbhnji7k21yKYeBiegfWrLtsq7U+6i8UBEr08gl8Ihdee3Q1A5Ik9A7ISIVV6z5jA==
+  version "3.12.28"
+  resolved "https://registry.yarnpkg.com/@types/serverless/-/serverless-3.12.28.tgz#32a4832ba80947a2ebb24015ca14809ef27acaea"
+  integrity sha512-8jid93aeKGxoweug+Rsv60SH8Y8bF+xWfVkun6e4RTw0MX9YythBAAz2VMzOf7IBZrT8uZHCyNNNP9tRFZkCmA==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.3"
@@ -741,9 +741,9 @@
   integrity sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==
 
 "@types/yargs@^17.0.8":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-17.0.34.tgz#1c2f9635b71d5401827373a01ce2e8a7670ea839"
-  integrity sha512-KExbHVa92aJpw9WDQvzBaGVE2/Pz+pLZQloT2hjL8IqsZnV62rlPOYvNnLmf/L2dyllfVUOVBj64M0z/46eR2A==
+  version "17.0.35"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-17.0.35.tgz#07013e46aa4d7d7d50a49e15604c1c5340d4eb24"
+  integrity sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==
   dependencies:
     "@types/yargs-parser" "*"
 
